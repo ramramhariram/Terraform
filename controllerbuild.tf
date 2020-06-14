@@ -4,6 +4,7 @@ module "aviatrixcontroller" {
   subnet  = var.controllersubnet
   keypair = var.keypair
   ec2role = module.hrs_iam_roles.aviatrix-role-ec2-name
+  type = var.AMItype
 }
 
 
