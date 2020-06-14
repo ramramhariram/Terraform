@@ -1,4 +1,6 @@
 variable controllerVPC {}
 variable controllersubnet {}
 variable keypair {}
-varibale AMItype {}
+varibale "AMItype" {
+  default = "meteredplatinum" 
+ }
