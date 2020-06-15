@@ -6,4 +6,6 @@ resource "aviatrix_controller_config" "controller_backup_config" {
   backup_bucket_name         = var.s3bucket
   multiple_backups           = true
   security_group_management  = true
+  admin_email         = var.admin_email
+  admin_password      = var.admin_password
 }
