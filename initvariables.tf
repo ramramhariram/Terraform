@@ -1,7 +1,7 @@
 variable admin_email {}
 variable admin_password {}
 
-variable license {}
+#variable license {}
 
 
 #testing a variable comment for new git push 
