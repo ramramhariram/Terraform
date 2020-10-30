@@ -10,7 +10,7 @@ module "aviatrix_controller_init" {
   aws_account_id      = data.aws_caller_identity.current.account_id
   vpc_id              = var.controllerVPC
   subnet_id           = var.controllersubnet
-  customer_license_id = var.license
+  #customer_license_id = var.license
 }
 
 output "account_id" {
