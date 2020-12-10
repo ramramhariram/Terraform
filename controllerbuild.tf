@@ -3,7 +3,8 @@ module "aviatrixcontroller" {
   vpc     = var.controllerVPC
   subnet  = var.controllersubnet
   keypair = var.keypair
-  ec2role = module.hrs_iam_roles.aviatrix-role-ec2-name
+#  ec2role = module.hrs_iam_roles.aviatrix-role-ec2-name
+  ec2role = "aviatrix-role-ec2"
   type = var.AMItype
 }
 
